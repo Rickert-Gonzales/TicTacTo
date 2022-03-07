@@ -118,10 +118,24 @@
         android:visibility="visible">
 
         <TextView
-            android:id="@+id/textOpen"
+            android:id="@+id/winnerMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75sp"
+            android:text="New Text"
+            android:textSize="32sp"
+            />
+        <Button
+            android:id="@+id/playAgainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35sp"
+            android:padding="10sp"
+            android:background="#68DD57"
+            android:text="Play Again"
+            android:onClick="playAgain"
             />
 
     </LinearLayout>
